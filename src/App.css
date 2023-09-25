@@ -61,6 +61,8 @@
     margin-top: 2rem;
     display: flex;
     gap: 4rem;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .home__contact_a{
     background-color: #a5043a;
@@ -88,6 +90,7 @@
     display: flex;
     gap: 1.5rem;
     margin-top: 1.5rem;
+    flex-wrap: wrap;
 }
 .technology__item_img{
     width: 2.5rem;
@@ -244,22 +247,48 @@
 }
 
 @media screen and (max-width:767px) {
+    .nav{
+        justify-content: start;
+    }
+    .nav__title__container{
+        display: none;
+    }
+    .nav__list{
+        padding-left: 1rem;
+    }
     .home{
-        width:380px;
+        max-width:380px;
+        width: 90%;
     }
     .home__section{
         padding: 4rem 2.5rem;
     }
     .home__profesion,
     .home__profesion_decoration{
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
     .home__description{
+        margin-top: 1.5rem;
         font-size: 1.1rem;
-        width: 40ch;
+        max-width: 40ch;
+        width: 90%;
     }
     .home__contact_list{
         gap: 2.5rem;
+    }
+    .home__avatar{
+        padding: 2rem 1rem 0 1rem;
+    }
+    .projectCard{
+        max-width: 600px;
+        min-width: 200px;
+        width: 70%;
+    }
+    .projectCard__title{
+        font-size: 1.2rem;
+    }
+    .aboutMe{
+        padding: 3rem 0;
     }
     .footer__farewell__container{
         max-width: 300px;
@@ -269,8 +298,18 @@
 @media screen and (max-width:320px) {
     .home__section{
         padding: 4rem 1rem;
-    }
+     }
     .projects__section{
         padding: 0 1rem;
      }
+     .footer{
+        display: grid;
+     }
+     .footer__contact_container{
+        margin-top: 1rem;
+     }
+     .footer__contact_list{
+        justify-content: center;
+     }
+    
 }

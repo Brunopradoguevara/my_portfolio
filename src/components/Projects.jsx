@@ -10,7 +10,7 @@ const Projects = () => {
             <ProjectCard 
               title='Sistema de gestión de usuarios' 
               imgProject = '/registroDeUsuarios.png'
-              descriptionProject='El sistema proporciona una serie de funciones fundamentales que mejoran la experiencia de registro y gestión de usuarios: registro de usuarios intuitivo, liminación de usuarios, actualización de datos de usuario.'
+              descriptionProject='El sistema proporciona una serie de funciones fundamentales que mejoran la experiencia de registro y gestión de usuarios: registro de usuarios intuitivo, eliminación de usuarios, actualización de datos de usuario.'
               technologies={["React","Api","Html","JavaScript","Css"]}
               linkDeploy='https://contact-book-bruno.netlify.app/'
               linkCode='https://github.com/Brunopradoguevara/crud-users'
@@ -32,7 +32,7 @@ const Projects = () => {
               linkCode='https://github.com/Brunopradoguevara/weatherApp'
             />
             <ProjectCard 
-              title='Tieda academlo' 
+              title='Tienda academlo' 
               imgProject = '/registroDeUsuarios.png'
               descriptionProject=' Tieda academlo es una experiencia de compra en línea diseñada para los amantes de la moda y las tendencias. Puedes explorar una amplia gama de prendas de vestir de alta calidad y estilo, todo desde la comodidad de tu hogar.'
               technologies={["Html","JavaScript","Css"]}
