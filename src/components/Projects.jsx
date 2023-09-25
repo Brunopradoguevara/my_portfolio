@@ -21,7 +21,7 @@ const Projects = () => {
               descriptionProject='Embarcarte en una aventura interdimensional inspirada en la popular serie de televisión "Rick and Morty". Con esta aplicación web, podrás explorar las fascinantes dimensiones que Rick y Morty han visitado a lo largo de sus viajes.'
               technologies={["React","Api","Html","JavaScript","Css"]}
               linkDeploy='https://rick-and-morty-api-bruno.netlify.app/'
-              linkCode='https://rick-and-morty-api-bruno.netlify.app/'
+              linkCode='https://github.com/Brunopradoguevara/ricknMortyApi'
             />
             <ProjectCard 
               title='ClimaYa - Datos Meteorológicos Instantáneos' 
