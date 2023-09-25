@@ -248,13 +248,10 @@
 
 @media screen and (max-width:767px) {
     .nav{
-        justify-content: start;
+        justify-content: center;
     }
     .nav__title__container{
         display: none;
-    }
-    .nav__list{
-        padding-left: 1rem;
     }
     .home{
         max-width:380px;
@@ -295,9 +292,12 @@
     }
 }
 
-@media screen and (max-width:320px) {
+@media screen and (max-width:555px) {
     .home__section{
         padding: 4rem 1rem;
+     }
+     .technologies{
+        max-width: 250px;
      }
     .projects__section{
         padding: 0 1rem;
