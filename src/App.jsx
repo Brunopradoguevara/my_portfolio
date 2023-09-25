@@ -9,7 +9,7 @@ import Projects from './components/Projects'
 function App() {
 
   return (
-   <>
+   <div className='portfolio'>
     <header>
       <Navbar/>
     </header>
@@ -19,7 +19,7 @@ function App() {
       <AboutMe/>
     </main>
     <Footer/>
-   </>
+   </div>
   )
 }
 

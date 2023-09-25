@@ -35,7 +35,7 @@ const Projects = () => {
               title='Tieda academlo' 
               imgProject = '/registroDeUsuarios.png'
               descriptionProject=' Tieda academlo es una experiencia de compra en línea diseñada para los amantes de la moda y las tendencias. Puedes explorar una amplia gama de prendas de vestir de alta calidad y estilo, todo desde la comodidad de tu hogar.'
-              technologies={["React","Api","Html","JavaScript","Css"]}
+              technologies={["Html","JavaScript","Css"]}
               linkDeploy='https://ecommercebruno.netlify.app/'
               linkCode='https://github.com/Brunopradoguevara/my-first-ecommerce'
             />
