@@ -1,0 +1,223 @@
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    height: 4rem;
+    width: 100%;
+    background-color: #020c16;
+}
+.nav__list{
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+}
+.nav__list_a{
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+.nav__list_a:hover{
+    color: #a5043a;
+}
+
+/***  HOME SECTION ****/
+.home__section{
+    padding: 7rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.home{
+    margin-top: 2rem;
+}
+.home__greeting{
+    font-size: 1.7rem;
+    color: #a5043a;
+}
+.home__my_name{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #64ffda;
+    margin: 0.5rem 0;
+}
+.home__profesion{
+    font-size: 2rem;
+    margin-bottom: 0.7rem;
+}
+.home__profesion_decoration{
+    font-size: 2rem;
+    color: #64ffda;
+}
+.home__description{
+    font-size: 1.1rem;
+    width: 44ch;
+    line-height: 1.3;
+    letter-spacing: 1px;
+    
+}
+
+.home__contact_list{
+    margin-top: 2rem;
+    display: flex;
+    gap: 4rem;
+}
+.home__contact_a{
+    background-color: #a5043a;
+    padding: 0.7rem 2rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.home__contact_a:hover{
+    background-color: #c50847;
+}
+.bxl-linkedin,
+.bxl-github,
+.bx-envelope{
+    font-size: 1.5rem;
+    vertical-align: sub;
+}   
+.technologies{
+    margin-top: 2rem;
+}
+.technologies__title{
+    font-size: 2rem;
+}
+.technologies__list{
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+.technology__item_img{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+.home__avatar{
+    display: flex;
+    justify-content: center;
+}
+.avatar_img{
+    width: 430px;
+    height: 430px;
+}
+
+
+
+/*** PROJECTS SECTION ***/
+.projects__section{
+    padding: 1rem 7rem;
+}
+.projects__section_title{
+    font-size: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+.projects__container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,400px);
+    gap: 3rem;
+    row-gap: 2rem;
+    justify-content: center;
+}
+
+/*** PROJECT CARD ***/
+
+.projectCard{
+    width: 400px;
+    background-color: #031221;
+}
+.projectCard__header{
+    height: 300px;
+}
+.projectCard__img{
+    width: 100%;
+    height: 100%;
+}
+.projectCard__main{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.projectCard__title{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 0.7rem;
+}
+.projectCard__description{
+    line-height: 1.4;
+    margin-bottom: 1.3rem;
+}
+.projectCard__list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    margin: 0 0.5rem;
+}
+.projectCard__technology{
+    background-color: lightblue;
+    color: black;
+    border-radius: 5px;
+    padding: 0.25rem;
+}
+.projectCard__footer{
+    margin: 2rem 0 1rem 0;
+}
+.projectCard__list_contact{
+    display: flex;
+    justify-content: space-around;
+}
+.projectCard__contact_item{
+    background-color: lightcoral;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+/*** ABOUT ME ***/
+
+.aboutMe{
+    padding: 3rem;
+    display: flex;
+    justify-content: center;    
+}
+.aboutMe__card{
+    max-width: 500px;
+    width: 80%;
+    padding: 1.5rem;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+.aboutMe__title{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+.aboutMe__description{
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+}
+
+/*** FOOTER ***/
+
+.footer{
+    background-color: rgb(51, 48, 48);
+    display: flex;
+    justify-content: space-around;
+    padding: 1.5rem 0;
+}
+.footer__farewell__container{
+    display: grid;
+    justify-content: center;
+    align-self: center;
+}
+.footer__farewell{
+    padding: 0.5rem;
+}
+.footer__contact_title{
+    margin-bottom: 1rem;
+    text-align: center;
+}
+.footer__contact_list{
+    display: flex;
+    gap: 1.5rem;
+}
