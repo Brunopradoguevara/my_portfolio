@@ -25,7 +25,7 @@
 /***  HOME SECTION ****/
 .home__section{
     padding: 7rem;
-    width: 100vw;
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(2,1fr);
 }
@@ -112,7 +112,7 @@
 
 /*** PROJECTS SECTION ***/
 .projects__section{
-   width: 100vw;
+   width: 100%;
    padding: 0 7rem;
 }
 .projects__section_title{
@@ -214,7 +214,7 @@
     display: flex;
     justify-content: space-around;
     padding: 1.5rem 0;
-    width: 100vw;
+    width: 100%;
 }
 .footer__farewell__container{
     display: grid;
