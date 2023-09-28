@@ -12,7 +12,7 @@ const Home = () => {
 
             <li className="home__contact_item"><a target="_blanck" href="https://github.com/Brunopradoguevara" className="home__contact_a"><i className='bx bxl-github' ></i></a></li>
 
-            <li className="home__contact_item"><a target="_blanck" href="mailto:brunoabraham98@hotmail.com"  className="home__contact_a"><i class='bx bx-envelope'></i></a></li>
+            <li className="home__contact_item"><a target="_blanck" href="mailto:brunoabraham98@hotmail.com"  className="home__contact_a"><i className='bx bx-envelope'></i></a></li>
           </ul>
           <article className="technologies">
             <h3 className="technologies__title">Tecnologías:</h3>

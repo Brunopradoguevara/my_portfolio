@@ -12,7 +12,9 @@ const ProjectCard = ({title,imgProject,descriptionProject,technologies,linkDeplo
             <ul className="projectCard__list">
                 {
                  technologies?.map(tec =>(
-                   <li className="projectCard__technology">{tec}</li> 
+                   <li 
+                    key={tec}
+                    className="projectCard__technology">{tec}</li> 
                  ))
                 }
             </ul>

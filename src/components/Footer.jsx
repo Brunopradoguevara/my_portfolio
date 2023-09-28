@@ -14,7 +14,7 @@ const Footer = () => {
 
               <li className="footer__contact_item"><a target="_blank" href="https://github.com/Brunopradoguevara" className="footer__contact_a"><i className='bx bxl-github' ></i></a></li>
 
-              <li className="footer__contact_item"><a target="_blank" href="mailto:brunoabraham98@hotmail.com" className="footer__contact_a"><i class='bx bx-envelope'></i></a></li>
+              <li className="footer__contact_item"><a target="_blank" href="mailto:brunoabraham98@hotmail.com" className="footer__contact_a"><i className='bx bx-envelope'></i></a></li>
           </ul>
         </div>
     </footer>
