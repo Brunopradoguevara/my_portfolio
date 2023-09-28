@@ -20,7 +20,7 @@ const ProjectCard = ({title,imgProject,descriptionProject,technologies,linkDeplo
         <footer className="projectCard__footer">
             <ul className="projectCard__list_contact">
                 <li className="projectCard__contact_item"><a className="projectCard__contact_a" target="blank" href={linkDeploy}>Deploy</a></li>
-                <li className="projectCard__contact_item"><a className="projectCard__contact_a" target="blank" href={linkCode}>Codigo</a></li>
+                <li className="projectCard__contact_item"><a className="projectCard__contact_a" target="blank" href={linkCode}>Código</a></li>
             </ul>
         </footer>
     </article>

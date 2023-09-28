@@ -34,7 +34,7 @@ const Projects = () => {
             <ProjectCard 
               title='Tienda academlo' 
               imgProject = '/academloShop.png'
-              descriptionProject=' Tieda academlo es una experiencia de compra en línea diseñada para los amantes de la moda y las tendencias. Puedes explorar una amplia gama de prendas de vestir de alta calidad y estilo, todo desde la comodidad de tu hogar.'
+              descriptionProject=' Tienda academlo es una experiencia de compra en línea diseñada para los amantes de la moda y las tendencias. Puedes explorar una amplia gama de prendas de vestir de alta calidad y estilo, todo desde la comodidad de tu hogar.'
               technologies={["Html","JavaScript","Css"]}
               linkDeploy='https://ecommercebruno.netlify.app/'
               linkCode='https://github.com/Brunopradoguevara/my-first-ecommerce'
