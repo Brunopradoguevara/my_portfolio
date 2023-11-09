@@ -1,16 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Space+Grotesk:wght@400;500;700&display=swap');
+
+:root{
+  /* COLORS */
+  --bg-color: #020e1b;  
+  --text-color: #ffffff;
+  --nav-color: #042546;
+  --bars-color: #ffffff;
+  --bg-color-contact: #a5043a;
+  --bg-color-contact-hover: #c50847;
+  --color-myName: #64ffda;
+  --color-btn-technologies: #4df8d0;
+  --bg-project-card-color: #052341;
+  --text-btn-color: #000000;
+  --bg-project-btn: #f08080;
+  --bg-project-btn-hover: #ff9090;
+  --bg-footer: #333030;
+
+  /*  */
+  --height-nav: 4rem;
+  --sections-separation: 5rem;
+}
 *{
   font-size: 16px;
   font-weight: 400;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  color: white;
+  color: var( --text-color);
   font-family: 'Lato', sans-serif;
-  /* font-family: 'Space Grotesk', sans-serif; */
 }
-body{
-  background-color: #020e1b;
+.portafolio{
+  background-color: var(--bg-color);
 }
 button{
   cursor: pointer;
@@ -20,4 +40,18 @@ li{
 }
 a{
   text-decoration: none;
+}
+
+.lightMode{
+  --bg-color: #7caee0;  
+  --text-color: #000000;
+  --nav-color: #d3d3d3;
+  --bg-color-contact: #1c04a5;
+  --bg-color-contact-hover: #260ac7;
+  --color-myName: #028d02;
+  --color-btn-technologies: #4df8d0;
+  --bg-project-card-color: #3d7ec0;
+  --text-btn-color: #000000;
+  --bg-project-btn: #f08080;
+  --bg-footer: #696969;
 }

@@ -1,4 +1,4 @@
-
+import './styles/Home.css'
 const Home = () => {
   return (
     <section className="home__section" id="home">
@@ -19,7 +19,9 @@ const Home = () => {
             <ul className="technologies__list">
               <li className="technology__item"><img src="/HTML5.png" alt="image HTML5" className="technology__item_img" /></li>
               <li className="technology__item"><img src="/CSS.png" alt="image CSS" className="technology__item_img" /></li>
+              <li className="technology__item"><img src="/Tailwind.png" alt="image Tailwind" className="technology__item_img" /></li>
               <li className="technology__item"><img src="/JavaScript.png" alt="image JavaScript" className="technology__item_img" /></li>
+              <li className="technology__item"><img src="/Typescript.png" alt="image TypeScript" className="technology__item_img" /></li>
               <li className="technology__item"><img src="/React.png" alt="image React" className="technology__item_img" /></li>
               <li className="technology__item"><img src="/GitHub.png" alt="image GitHub" className="technology__item_img" /></li>
               <li className="technology__item"><img src="/Git.png" alt="image Git" className="technology__item_img" /></li>

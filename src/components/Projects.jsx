@@ -1,4 +1,4 @@
-
+import './styles/Projects.css'
 import ProjectCard from "./ProjectCard"
 
 const Projects = () => {

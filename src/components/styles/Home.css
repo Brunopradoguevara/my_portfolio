@@ -1,0 +1,145 @@
+.home__section{
+    padding: var(--sections-separation) 7rem 2rem 7rem;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.home{
+    margin-top: 2rem;
+}
+.home__greeting{
+    font-size: 1.7rem;
+    color: var(--bg-color-contact);
+}
+.home__my_name{
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--color-myName);
+    margin: 0.5rem 0;
+}
+.home__profesion{
+    font-size: 2rem;
+    margin-bottom: 0.7rem;
+    display: block;
+    white-space: nowrap;
+    border-right: 3px solid;
+    width: 23ch;
+
+    animation: typing 2s steps(22),
+                blink 0.5s infinite step-end alternate ;
+    overflow: hidden;
+}
+@keyframes typing {
+    from {width: 0;}
+}
+@keyframes blink {
+    50% {border-color:transparent ;}
+}
+.home__profesion_decoration{
+    font-size: 2rem;
+    color: var(--color-myName);
+}
+.home__description{
+    font-size: 1.1rem;
+    width: 44ch;
+    line-height: 1.3;
+    letter-spacing: 1px; 
+}
+
+.home__contact_list{
+    margin-top: 2rem;
+    display: flex;
+    gap: 4rem;
+    flex-wrap: wrap;
+}
+.home__contact_a{
+    background-color: var(--bg-color-contact);
+    padding: 0.7rem 2rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.home__contact_a:hover{
+    background-color: var(--bg-color-contact-hover);
+}
+.bxl-linkedin,
+.bxl-github,
+.bx-envelope{
+    font-size: 1.5rem;
+    vertical-align: sub;
+}   
+.technologies{
+    margin-top: 2rem;
+}
+.technologies__title{
+    font-size: 2rem;
+}
+.technologies__list{
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+    flex-wrap: wrap;
+}
+.technology__item_img{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+.home__avatar{
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-left: 2rem;
+}
+.avatar_img{
+    max-width: 380px;
+    width: 100%;
+    aspect-ratio: 1;
+}
+
+@media screen and (max-width:1023px) {
+    .home__section{
+        padding-bottom: 3rem;
+    }
+    .home__avatar{
+        width: 280px;
+        margin: auto;
+    }
+    .home__section{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+@media screen and (max-width:767px){
+    .home{
+        max-width:380px;
+        width: 90%;
+    }
+    .home__section{
+        padding: 4rem 2.5rem;
+    }
+    .home__profesion,
+    .home__profesion_decoration{
+        font-size: 1.3rem;
+    }
+    .home__description{
+        margin-top: 1.5rem;
+        font-size: 1.1rem;
+        max-width: 40ch;
+        width: 90%;
+    }
+    .home__contact_list{
+        gap: 2.5rem;
+    }
+    .home__avatar{
+        padding: 2rem 1rem 0 1rem;
+    }
+    
+}
+@media screen and (max-width:555px){
+    .home__section{
+        padding: 4rem 1rem;
+     }
+     .technologies{
+        max-width: 250px;
+     }
+}

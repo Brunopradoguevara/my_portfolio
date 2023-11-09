@@ -1,4 +1,4 @@
-
+import './styles/ProjectCard.css'
 
 const ProjectCard = ({title,imgProject,descriptionProject,technologies,linkDeploy,linkCode}) => {
   return (
