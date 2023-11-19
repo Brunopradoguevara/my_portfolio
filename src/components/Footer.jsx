@@ -7,10 +7,10 @@ const Footer = () => {
             <p className="footer__farewell">No dudes en contactarme para cualquier propuesta de trabajo.</p>
         </div>
         <div className="footer__contact_container">
-            <h3 className="footer__contact_title">Contactame</h3>
+            <h3 className="footer__contact_title">Contáctame</h3>
             <ul className="footer__contact_list">
               
-              <li className="footer__contact_item"><a target="_blank" href="https://www.linkedin.com/in/bruno-abraham-prado-guevara-6ab487212/" className="footer__contact_a"><i className='bx bxl-linkedin'></i></a></li>
+              <li className="footer__contact_item"><a target="_blank" href="https://www.linkedin.com/in/bruno-prado-guevara-6ab487212/" className="footer__contact_a"><i className='bx bxl-linkedin'></i></a></li>
 
               <li className="footer__contact_item"><a target="_blank" href="https://github.com/Brunopradoguevara" className="footer__contact_a"><i className='bx bxl-github' ></i></a></li>
 

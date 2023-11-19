@@ -1,0 +1,41 @@
+.portafolio{
+    background-color: var(--bg-color);
+}
+.lightMode{
+    --bg-color: #a1c6ec;  
+    --text-color: #000000;
+    --nav-color: #ceecd9;
+    --bars-color: #000000;
+    --bg-color-contact: #4570e6;
+    --bg-color-contact-hover: #eb7474;
+    --color-myName: #eb7474;    
+    --color-btn-technologies: #4df8d0;
+    --bg-project-card-color: #3d7ec0;
+    --text-btn-color: #000000;
+    --bg-project-btn: #f08080;
+    --bg-footer: #696969;
+  }
+
+  .home__section,
+  .projects__section,
+  .aboutMe,
+  .contactForm{
+    padding: var(--sections-separation) var(--padding-x) 0 var(--padding-x);
+  }
+
+  @media screen and (max-width:767px){
+    .home__section,
+    .projects__section,
+    .aboutMe,
+    .contactForm{
+        padding: var(--sections-separation) var(--padding-x-sm) 0 var(--padding-x-sm);
+    }
+  } 
+  @media screen and (max-width:555px){
+    .home__section,
+    .projects__section,
+    .aboutMe,
+    .contactForm{
+        padding: var(--sections-separation) var(--padding-x-xs) 0 var(--padding-x-xs);
+    }
+  } 

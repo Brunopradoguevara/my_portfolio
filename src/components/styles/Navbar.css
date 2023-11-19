@@ -5,7 +5,7 @@
     position: fixed;
     top: 0;
     height: var(--height-nav);
-    width: 100%;
+    width: 100vw;
     background-color: var(--nav-color);
 }
 .nav__bars{
@@ -19,20 +19,33 @@
 }
 .nav__navigation{
     display: flex;
-    gap: 3rem;
+    gap: 1rem;
     justify-content: center;
     align-items: center;
 }
 .nav__list{
     display: flex;
     justify-content: space-between;
-    gap: 3rem;
 }
 .nav__list_a{
+    margin-right: 3rem;
     transition: 0.3s ease-in-out;
+}
+.nav__list_technologies{
+    display: none;
+    
 }
 .nav__list_a:hover{
     color: var(--bg-color-contact);
+}
+
+@media screen and (max-width:1065px){
+    .nav__list_a{
+        margin-right: 2rem;
+    }
+    .nav__list_technologies{
+        display: block;
+    }
 }
 
 
@@ -44,7 +57,6 @@
         display: block;
         cursor: pointer;
     }
-    
     .nav__navigation{
         height: 0px;
         position: absolute;

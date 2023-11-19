@@ -18,7 +18,7 @@ const ContactForm = () => {
     }
   return (
     <div id='contactForm' className="contactForm">
-        <h2 className="contactForm__title">Contactame</h2>
+        <h2 className="contactForm__title">Contáctame</h2>
         <form className="contactForm__form" ref={refForm} onSubmit={handleSubnit}>
             <label className="contactForm__label" htmlFor="">Nombre</label>
             <input name='from_name' className="contactForm__input"  type="text" placeholder="Nombre" required/>

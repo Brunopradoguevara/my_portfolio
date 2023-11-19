@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Space+Grotesk:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:wght@300;400;500;700&display=swap');
 
 :root{
   /* COLORS */
@@ -7,7 +7,7 @@
   --nav-color: #042546;
   --bars-color: #ffffff;
   --bg-color-contact: #a5043a;
-  --bg-color-contact-hover: #c50847;
+  --bg-color-contact-hover: #f08080;
   --color-myName: #64ffda;
   --color-btn-technologies: #4df8d0;
   --bg-project-card-color: #052341;
@@ -16,9 +16,24 @@
   --bg-project-btn-hover: #ff9090;
   --bg-footer: #333030;
 
-  /*  */
+  /* measures */
   --height-nav: 4rem;
   --sections-separation: 5rem;
+  --padding-x: 7rem;
+  --padding-x-sm: 2.5rem;
+  --padding-x-xs: 1rem;
+
+  /* scrollbar */
+  ::-webkit-scrollbar {
+    width: 12px; 
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: var(--bg-project-card-color); 
+    border-radius: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background-color: var(--color-btn-technologies); 
+  }
 }
 *{
   font-size: 16px;
@@ -29,9 +44,6 @@
   color: var( --text-color);
   font-family: 'Lato', sans-serif;
 }
-.portafolio{
-  background-color: var(--bg-color);
-}
 button{
   cursor: pointer;
 }
@@ -40,18 +52,4 @@ li{
 }
 a{
   text-decoration: none;
-}
-
-.lightMode{
-  --bg-color: #7caee0;  
-  --text-color: #000000;
-  --nav-color: #d3d3d3;
-  --bg-color-contact: #1c04a5;
-  --bg-color-contact-hover: #260ac7;
-  --color-myName: #028d02;
-  --color-btn-technologies: #4df8d0;
-  --bg-project-card-color: #3d7ec0;
-  --text-btn-color: #000000;
-  --bg-project-btn: #f08080;
-  --bg-footer: #696969;
 }

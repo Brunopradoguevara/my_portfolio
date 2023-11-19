@@ -1,6 +1,6 @@
 
 .aboutMe{
-    padding: var(--sections-separation) 3rem 3rem 3rem;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -9,7 +9,9 @@
 .aboutMe__title{
     text-align: center;
     font-size: 2.5rem;
+    font-weight: 500;
     margin-bottom: 1.5rem;
+    color: var(--color-myName);
 }
 .aboutMe__card{
     display: flex;
@@ -43,9 +45,7 @@
 }
 
 @media screen and (max-width:767px) {
-    .aboutMe{
-        padding: 3rem;
-    }
+
     .aboutMe__card{
         flex-direction: column;
     }

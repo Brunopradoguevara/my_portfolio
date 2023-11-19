@@ -7,6 +7,10 @@ const Navbar = ({isLightMode,setIsLightMode}) => {
   const handleClick = ()=>{
     setisActive(!isActive);
   }
+  const closeNav = (e)=>{
+    setisActive(false);
+    e.stopPropagation()
+  }
   return (
     <nav className="nav">
         <div className="nav__title__container">
@@ -17,12 +21,13 @@ const Navbar = ({isLightMode,setIsLightMode}) => {
           <div className="nav__bars_line"></div>
           <div className="nav__bars_line"></div>
         </div>
-        <div className={`nav__navigation ${isActive? 'nav__navigation-active': ''}`}>
+        <div className={`nav__navigation ${isActive? 'nav__navigation-active': ''}`} onClick={closeNav}>
             <ul className={`nav__list ${isActive? 'nav__list-active': ''}`}>
                 <li className="nav__item"><a className="nav__list_a" href="#home">Inicio</a></li>
+                <li className="nav__item"><a className="nav__list_a  nav__list_technologies" href="#technologies">Tecnologías</a></li>
                 <li className="nav__item"><a className="nav__list_a" href="#projects">Proyectos</a></li>
                 <li className="nav__item"><a className="nav__list_a" href="#aboutMe">Sobre mí  </a></li>
-                <li className="nav__item"><a className="nav__list_a" href="#contactForm">Contactome  </a></li>
+                <li className="nav__item"><a className="nav__list_a" href="#contactForm">Contáctame  </a></li>
             </ul>
             <DarkMode
               isLightMode={isLightMode}

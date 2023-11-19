@@ -27,7 +27,7 @@ const Projects = () => {
               title='ClimaYa - Datos Meteorológicos Instantáneos' 
               imgProject = '/weatherApp.png'
               descriptionProject='Aplicación web que te brinda acceso instantáneo a la información meteorológica actualizada en tiempo real de cualquier ciudad del mundo. Simplemente ingresa el nombre de la ciudad que te interesa y descubre datos esenciales sobre las condiciones climáticas.'
-              technologies={["React","Api","Html","JavaScript","Css"]}
+              technologies={["React","Api","Html","TypeScript","Tailwind Css"]}
               linkDeploy='https://weather-app-bruno.netlify.app/'
               linkCode='https://github.com/Brunopradoguevara/weatherApp'
             />
