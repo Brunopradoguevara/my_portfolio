@@ -8,8 +8,10 @@ const Navbar = ({isLightMode,setIsLightMode}) => {
     setisActive(!isActive);
   }
   const closeNav = (e)=>{
-    setisActive(false);
-    e.stopPropagation()
+    if(isActive){
+      setisActive(false);
+      e.stopPropagation()
+    }
   }
   return (
     <nav className="nav">
@@ -24,7 +26,7 @@ const Navbar = ({isLightMode,setIsLightMode}) => {
         <div className={`nav__navigation ${isActive? 'nav__navigation-active': ''}`} onClick={closeNav}>
             <ul className={`nav__list ${isActive? 'nav__list-active': ''}`}>
                 <li className="nav__item"><a className="nav__list_a" href="#home">Inicio</a></li>
-                <li className="nav__item"><a className="nav__list_a  nav__list_technologies" href="#technologies">Tecnologías</a></li>
+                <li className="nav__item"><a className="nav__list_a" href="#technologies">Tecnologías</a></li>
                 <li className="nav__item"><a className="nav__list_a" href="#projects">Proyectos</a></li>
                 <li className="nav__item"><a className="nav__list_a" href="#aboutMe">Sobre mí  </a></li>
                 <li className="nav__item"><a className="nav__list_a" href="#contactForm">Contáctame  </a></li>

@@ -1,4 +1,4 @@
-import Technologies from './Technologies'
+
 import './styles/Home.css'
 const Home = () => {
   return (
@@ -19,7 +19,6 @@ const Home = () => {
         <div className="home__avatar">
             <img className="avatar_img" src="myAvatar1.png" alt="" />
         </div>
-        <Technologies/>
     </section>
   )
 }

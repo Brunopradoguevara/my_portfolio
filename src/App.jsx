@@ -7,6 +7,7 @@ import Home from './components/Home'
 import Navbar from './components/Navbar'
 import Projects from './components/Projects'
 import ContactForm from './components/ContactForm'
+import Technologies from './components/Technologies'
 
 function App() {
   const [isLightMode, setIsLightMode] = useState(false)
@@ -20,6 +21,7 @@ function App() {
     </header>
     <main>
       <Home/> 
+      <Technologies/>
       <Projects/>
       <AboutMe/>
       <ContactForm/>

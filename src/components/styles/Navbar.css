@@ -31,10 +31,6 @@
     margin-right: 3rem;
     transition: 0.3s ease-in-out;
 }
-.nav__list_technologies{
-    display: none;
-    
-}
 .nav__list_a:hover{
     color: var(--bg-color-contact);
 }
@@ -77,6 +73,9 @@
         text-align: center;
         transition: 0.5s;
         opacity: 1;
+    }
+    .nav__list_a{
+        margin-right: 0;
     }
     .nav__list-active{
         display: flex;

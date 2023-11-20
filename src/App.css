@@ -17,6 +17,7 @@
   }
 
   .home__section,
+  .technologies,
   .projects__section,
   .aboutMe,
   .contactForm{
@@ -25,6 +26,7 @@
 
   @media screen and (max-width:767px){
     .home__section,
+    .technologies,
     .projects__section,
     .aboutMe,
     .contactForm{
@@ -33,6 +35,7 @@
   } 
   @media screen and (max-width:555px){
     .home__section,
+    .technologies,
     .projects__section,
     .aboutMe,
     .contactForm{
