@@ -55,8 +55,8 @@
     transform: scale(1.03);
 }
 
-@media screen and (min-width:1500px){
+/* @media screen and (min-width:1500px){
     .contactForm{
      min-height: fit-content;
     }
-}
+} */
