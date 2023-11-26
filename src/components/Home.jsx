@@ -6,7 +6,7 @@ const Home = () => {
         <div className="home">
           <span className="home__greeting">Hola, soy</span>
           <h1 className="home__my_name">Bruno Prado</h1>
-          <p className="home__profesion"><span className="home__profesion_decoration">&lt;</span> Desarrollador Frontend <span className="home__profesion_decoration">/&gt;</span></p>
+          <p className="home__profesion"><span className="home__profesion_decoration">&lt;</span> Desarrollador Web <span className="home__profesion_decoration">/&gt;</span></p>
           <p className="home__description">Especializado en la creación de aplicaciones web con react. Siempre buscando ofrecer al usuario una experiencia cómoda, fiable y atractiva. </p>
           <ul className="home__contact_list">
 

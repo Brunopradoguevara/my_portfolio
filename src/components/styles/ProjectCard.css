@@ -4,6 +4,8 @@
     min-width: 400px;
     max-width: 600px;
     width: 40%;
+    border-radius: 15px;
+    overflow: hidden;
     background-color: var(--bg-project-card-color);
 }
 .projectCard__header{
