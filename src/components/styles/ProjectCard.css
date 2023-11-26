@@ -55,11 +55,16 @@
     display: flex;
     justify-content: space-around;
 }
-.projectCard__contact_item{
+.projectCard__contact_a{
     background-color: var(--bg-project-btn);
     padding: 0.5rem;
     border-radius: 5px;
+    transition: ease-in-out 0.2s;
 }
+.projectCard__contact_a:hover{
+    background-color: var(--bg-project-btn-hover);
+}
+
 
 @media screen and (max-width:1065px){
     .projectCard{
