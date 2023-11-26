@@ -10,16 +10,10 @@
      color: var(--color-myName);
  }
  .projects__container{
-     display: grid;
-     grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
-     gap: 3rem;
-     row-gap: 2rem;
-     justify-content: center;
-     align-items: center;
- }
 
-/*  @media screen and (max-width:555px){
-    .projects__section{
-        padding: var(--sections-separation) 1rem 0 1rem;
-     }
- } */
+     display: flex;
+     justify-content: center;
+     width: 100%;
+     gap: 2rem;
+     flex-wrap: wrap;
+ }
