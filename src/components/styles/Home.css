@@ -87,11 +87,18 @@
     max-width: 400px;
     max-height: 400px;
 }
-/* @media screen and (min-width:1500px){
-    .home__section{
-     min-height: fit-content;
+@media screen and (min-width:1500px){
+    .home__description,
+    .home__greeting{
+        font-size: 2.2rem;
     }
-} */
+    .home__my_name{
+        font-size: 3.5rem;
+    }
+    .home__profesion{
+        font-size: 3rem;
+    }
+}
 @media screen and (max-width:1260px) {
     .home__contact_list{
         justify-content: center;

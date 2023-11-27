@@ -22,11 +22,12 @@
     height: 7rem;
 }
 
-/* @media screen and (min-width:1500px){
-    .technologies{
-     min-height: fit-content;
+@media screen and (min-width:1500px){
+    .technology__item_img{
+        width: 10rem;    
+        height: 10rem;
     }
-} */
+}
 @media screen and (max-width:500px){
     .technologies__title{
         margin-bottom: 4rem;

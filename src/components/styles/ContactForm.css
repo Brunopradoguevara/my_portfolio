@@ -54,9 +54,3 @@
     background-color: var(--bg-project-btn-hover);
     transform: scale(1.03);
 }
-
-/* @media screen and (min-width:1500px){
-    .contactForm{
-     min-height: fit-content;
-    }
-} */
