@@ -43,7 +43,7 @@ const Projects = () => {
               title='Galleta de la fortuna' 
               imgProject = '/galletaDeLaFortuna.png'
               descriptionProject='Este proyecto fue creado con la idea de brindarte un toque de diversión y sabiduría en cada clic.'
-              technologies={["React","Html","JavaScript","Tailwind Css"]}
+              technologies={["React","Html","TypeScript","Tailwind Css"]}
               linkDeploy='https://fortune-cookie-brunoprado.netlify.app/'
               linkCode='https://github.com/Brunopradoguevara/fortune-cookie-ts'
             />
