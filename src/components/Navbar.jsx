@@ -15,8 +15,9 @@ const Navbar = ({isLightMode,setIsLightMode}) => {
   }
   return (
     <nav className="nav">
-        <div className="nav__title__container">
-        <h2 className="nav__title"><span className="nav__title_decoration">&lt;</span> Portafolio <span className="nav__title_decoration">/&gt;</span></h2>
+        <div className="nav__logo__container">
+       {/*  <h2 className="nav__title"><span className="nav__title_decoration">&lt;</span> Portafolio <span className="nav__title_decoration">/&gt;</span></h2> */}
+       <img className='nav__logo' src="./logo.png" alt="logo" />
         </div>
         <div className='nav__bars' onClick={handleClick}>
           <div className="nav__bars_line"></div>

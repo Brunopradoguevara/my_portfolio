@@ -8,6 +8,13 @@
     width: 100vw;
     background-color: var(--nav-color);
 }
+.nav__logo__container{
+    width: 50px;
+    height: 150px;
+}
+.nav__logo{
+    height: 100%;
+}
 .nav__bars{
     display: none;
 }
