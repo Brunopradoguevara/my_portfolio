@@ -13,7 +13,9 @@ function App() {
   const [isLightMode, setIsLightMode] = useState(false)
   return (
    <div className={`portafolio ${isLightMode? 'lightMode': ''}`}>
-    <header>
+    <header
+      isLightMode={isLightMode}
+    >
       <Navbar
         isLightMode={isLightMode}
         setIsLightMode={setIsLightMode}

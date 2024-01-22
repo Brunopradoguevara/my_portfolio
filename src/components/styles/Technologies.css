@@ -49,6 +49,14 @@
         margin-bottom: 4rem;
     }
     .technology__item{
-        padding: 1rem 3rem;
+        padding: 1rem;
+        width: 46%;
+        min-width: 100px;
+    }
+    .technologies__list{
+        gap: 1rem;
+    }
+    .technology__item_img{
+        width: 50%;
     }
 }
