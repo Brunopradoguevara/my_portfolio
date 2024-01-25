@@ -152,3 +152,8 @@
     }
     
 }
+@media screen and (max-width:320px){
+    .home__avatar{
+        width: 250px;
+    }
+}

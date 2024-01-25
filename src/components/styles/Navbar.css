@@ -60,33 +60,30 @@
         display: block;
         cursor: pointer;
     }
-    .nav__navigation{
-        height: 0px;
+    .nav__navigation {
+        height: calc(100vh - var(--height-nav));
         position: absolute;
         top: 4rem;
-        left: 0;
+        left: -100%;
         right: 0;
         width: 100%;
         background-color: var(--nav-color);
         transition: 0.5s ease-in-out;
-        overflow: hidden;
-    }
-    .nav__navigation-active{
-        display: flex;
-        flex-direction: column;
-        height: fit-content;
         padding: 1rem;
-        width: 100%;
+        flex-direction: column;
         text-align: center;
-        transition: 0.5s;
-        opacity: 1;
     }
-    .nav__list_a{
-        margin-right: 0;
-    }
-    .nav__list-active{
+    .nav__list {
+        justify-content: space-between;
         display: flex;
         gap: 2rem;
         flex-direction: column;
+    }
+    .nav__navigation-active{
+        left: 0; 
+    }
+    .nav__list_a{
+        margin-right: 0;
+        font-size: 1.5rem;
     }
 }
