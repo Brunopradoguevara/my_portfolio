@@ -10,7 +10,6 @@ const ContactForm = () => {
         const ApiKey = 'iWIyQpZTOSJnK-bWB'
         emailjs.sendForm(service_ID,tamble_ID,refForm.current,ApiKey)
         .then(res=>{
-          console.log(res.text); 
           refForm.current.reset();
          })
         .catch(err =>console.log(err)); 
